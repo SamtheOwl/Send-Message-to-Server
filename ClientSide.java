@@ -78,7 +78,7 @@ public class ClientSide
 			dos.writeUTF(message);
 			
 			System.out.println("\nSent!");
-			
+			socketOne.close();
 			dos.close(); // and flush
 		}
 
